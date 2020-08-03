@@ -12,7 +12,7 @@ python telnetenable.py <IP> <MAC> <Username> <Password>
 ```
 
 * IP - The IP of your Netgear device, usually 192.168.1.1
-* MAC - The mac address should be the MAC address of the LAN port on your Netgear device, WITHOUT the ":". e.g. "00:40:5E:21:14:4E" would be written as "00405E21144E".
+* MAC - The mac address should be the MAC address of the LAN port on your Netgear device, e.g. "00:40:5E:21:14:4E" or "00405E21144E".
 * For newer Netgear routers:
     * Username - 'admin'
     * Password = Use password you set in web interface
