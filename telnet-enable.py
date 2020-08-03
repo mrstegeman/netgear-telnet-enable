@@ -24,7 +24,6 @@ THE SOFTWARE.
 
 from Crypto.Cipher import Blowfish
 from Crypto.Hash import MD5
-from optparse import OptionParser
 import array
 import socket
 import sys
@@ -109,6 +108,7 @@ def main():
     args = sys.argv[1:]
     if len(args) < 3 or len(args) > 4:
         print('usage: ./telnet-enable.py <ip> <mac> <username> [<password>]')
+        sys.exit(1)
 
     ip = args[0]
     mac = args[1]
